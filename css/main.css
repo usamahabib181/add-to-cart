@@ -1,0 +1,53 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.image-responsive {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  margin: 30px auto 0px auto;
+}
+
+.mt-10 {
+  margin-top: 50px;
+}
+
+.ps-relative {
+  position: relative;
+  border: 1px solid balck;
+}
+
+.cart-hover {
+  position: absolute;
+  /* display: block; */
+  /* visibility: hidden; */
+  /* width: 400px; */
+  /* height: 500px; */
+
+  background: rgb(88, 87, 87);
+  left: 10%;
+  /* top: 50px; */
+}
+
+.cart-img {
+  width: 50px;
+  /* height: 50px; */
+}
+
+.ps-relative {
+  left: -35%;
+  z-index: 2;
+}

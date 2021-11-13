@@ -1,0 +1,27 @@
+.header {
+  height: 80vh;
+  background-color: #f4f4f4;
+
+  .navbar {
+    border: 1px solid #000;
+    height: 80px;
+    text-transform: uppercase;
+  }
+
+  .logo {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 80px;
+  }
+
+  .nav-list {
+    position: absolute;
+    top: 31px;
+    right: 80px;
+
+    li {
+      display: inline-block;
+      padding: 0 15px;
+    }
+  }
+}
